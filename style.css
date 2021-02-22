@@ -79,12 +79,26 @@
   color: #aaa;
 }
 
+
 /* Media Queries */
+
+/* Mobile View */
+
+
 
 /* Tablet */
 
-@media (min-width:768px){ 
+@media (max-width:768px){ 
+  .black-menu-container {
+    display: none;
+    
+  }
+}
 
+@media (max-width:768px){
+  .white-search {
+     display: flex;
+  }
 }
 
 /* Desktop */
