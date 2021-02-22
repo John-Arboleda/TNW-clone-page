@@ -1,0 +1,42 @@
+
+/* Top Navbar */
+
+/* Black Navbar */
+
+.black-menu-container {
+  display: flex;
+  border: 1px solid black;
+  background-color: black;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.right-black-menu,
+.left-black-menu {
+  display: flex;
+}
+
+.right-black-menu {
+  margin-right: 30px;
+}
+
+.left-black-menu {
+  margin-left: 13px;
+}
+
+.right-black-list,
+.left-black-list {
+  display: inline-block;
+  padding: 5px 0;
+  margin: 0;
+}
+
+.black-menu-link {
+  display: inline;
+  color: hsla(0,0%,100%,.6);
+  padding-left: 3px;
+  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-size: 13px;
+}
+
+/*White Navbar */
