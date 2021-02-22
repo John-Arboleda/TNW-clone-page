@@ -33,19 +33,20 @@
 
 .black-menu-link {
   display: inline;
-  color: hsla(0,0%,100%,.6);
+  color: hsla(0, 0%, 100%, 0.6);
   padding-left: 3px;
-  font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
   font-size: 13px;
 }
 
-/*White Navbar */
+/* White Navbar */
+
 .white-menu-container {
-   display: flex;
-   height: 48px;
-   align-items: center;
-   justify-content: space-between;
-   border: 1px solid #aaa;
+  display: flex;
+  height: 48px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #aaa;
 }
 
 .left-white-menu {
@@ -60,7 +61,7 @@
 
 .white-menu-link {
   display: inline;
-  font-family: Shentox,sans-serif;
+  font-family: Shentox, sans-serif;
   font-weight: 500;
   color: #aaa;
   font-size: 14px;
