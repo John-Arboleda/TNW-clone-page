@@ -1,6 +1,20 @@
 
 /* Top Navbar */
 
+.navbar-container {
+  display: flex;
+  width: 100%;
+}
+
+.menu-container {
+  width: 100%;
+}
+
+.logo-container {
+  width: 48px;
+  height: 66px;
+}
+
 /* Black Navbar */
 
 .black-menu-container {
