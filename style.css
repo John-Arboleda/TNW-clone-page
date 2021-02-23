@@ -2,7 +2,7 @@
 /* Top Navbar */
 
 html {
-  overflow-x: hidden;
+  overflow:scroll;
 }
 
 .navbar-container {
@@ -123,6 +123,8 @@ html {
 /* footer */
 
 footer {
+  /* footer hidden */
+  display: none;
   position: absolute;
   bottom: 0;
   width: 100%;
