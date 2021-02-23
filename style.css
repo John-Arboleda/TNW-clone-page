@@ -1,6 +1,10 @@
 
 /* Top Navbar */
 
+html {
+  overflow-x: hidden;
+}
+
 .navbar-container {
   display: flex;
   width: 100%;
@@ -183,6 +187,82 @@ footer {
   line-height: 20px;
 }
 
+/*Highlight_images */
+
+.highlight_images {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.highlight_1 {
+  background-image:
+  linear-gradient(rgba(245, 246, 0, 0)),
+  url('assets/iphone_image.jpg');
+  background-size: cover;
+  /* color: white; */
+  /* padding: 20px; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  
+}
+
+.highlight_1 img {
+  width: 100%;
+}
+
+.header_title a {
+  position: absolute;
+  color: black;
+  bottom: 30px;
+  left: 9px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.sub_header_title {
+  position: absolute;
+  display: flex;
+  color: black;
+  bottom: 10px;
+  left: 9px;
+  text-decoration: none;
+  color: white;
+  font-size: 10px; 
+}
+
+.cover-byline {
+  display: flex;
+}
+
+.cover-byline_1 {
+  display: inline-block;
+  padding: 5px;
+}
+
+.cover-byline_1 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hightlight_2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 50%;
+  width: 100%;
+}
+
+.hightlight_2 img {
+  background-blend-mode: color-burn;
+  width: 100%;
+}
+
+
 /* Media Queries */
 
 /* Tablet */
@@ -221,6 +301,52 @@ footer {
   .legal-text {
     display: inline;
   }
+
+@media (min-width: 768px) {
+
+  .highlight_images {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+
+  .highlight_1 {
+    position: relative;
+    display: flex;
+    width: 65%;
+    height: 80px;
+  }
+
+  .header_title a {
+    position: absolute;
+    color: black;
+    margin-top: 55px;
+    left: 9px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+  .sub_header_title {
+    position: absolute;
+    display: flex;
+    color: black;
+    bottom: 6px;
+    left: 9px;
+    text-decoration: none;
+    color: white;
+    font-size: 10px; 
+    }
+  .hightlight_2 {
+    display: flex;
+    width: 35%;
+    height: 40px;
+    flex-direction: column;
+    align-self: flex-end;
+  }
+
+}
+
 
 /* Desktop */
 
