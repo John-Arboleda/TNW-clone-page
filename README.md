@@ -62,6 +62,9 @@ Please Note that you must have github installed on your PC, this can be done her
 
 # Authors
 
+👤 Francis Uloko
+- GitHub: [@francisuloko](https://github.com/francisuloko)
+
 👤 NSABIMANA Emmanuel
 - GitHub: [@emmyn5600](https://github.com/Emmyn5600)
 - Twitter: [@NSABIMA62253884](https://twitter.com/NSABIMA62253884)
