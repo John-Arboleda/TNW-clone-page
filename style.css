@@ -302,12 +302,11 @@ html {
   .ribbon {
     top: 0;
     right: 0;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     overflow: hidden;
     position: absolute;
-    border-bottom-left-radius: 100%;
-    background: gold;
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/deals-ribbon.svg");
   }
 
   /* for latest deals: ribbons and discounts */
@@ -323,12 +322,13 @@ html {
 
   .discount {
     position: absolute;
+    top: 40px;
+    left: 25px;
     font-size: 14px;
     font-weight: 900;
-    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    right: 12px;
-    top: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     transform: rotate(45deg);
+    width: 100px;
   }
 
   .discount::after {
