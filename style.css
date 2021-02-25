@@ -83,6 +83,17 @@ a {
   font-size: 13px;
 }
 
+.left-black-menu,
+.right-black-menu
+a:hover {
+  color: #fff;
+}
+
+.left-white-menu
+a:hover {
+  color: #000;
+}
+
 /* White Navbar */
 
 .white-menu-container {
