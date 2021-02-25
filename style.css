@@ -221,6 +221,133 @@ html {
 }
 
 /* latest news */
+.latest-news {
+  width: 90%;
+  max-width: 1150px;
+  margin: 30px auto;
+}
+
+.latest-news-title {
+  font-size: 28px;
+  color: #f42;
+  font-weight: 900;
+  margin: 10px 0;
+  font-family: Avalon, sans-serif;
+  text-decoration: none;
+}
+
+.articles-container {
+  margin: 0;
+  padding: 10px;
+}
+
+.latest-article {
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  gap: 15px;
+  margin: 15px 0;
+}
+
+.latest-article-title {
+  font-size: 14px;
+  font-weight: 800;
+  margin: 0 0 7px 0;
+  color: #000;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  text-decoration: none;
+  display: block;
+}
+
+.latest-article-title:hover {
+  color: #f42;
+}
+
+.latest-article-publication {
+  color: #aaa;
+  font-size: 12px;
+}
+
+.discount,
+.ribbon {
+  display: none;
+}
+
+@media (min-width: 822px) {
+  .latest-article-container {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .latest-article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-article-photo {
+    width: 100%;
+    height: 150px;
+  }
+
+  .latest-article-title {
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+  }
+
+  .latest-article-publication {
+    font-size: 13px;
+  }
+
+  .ribbon {
+    top: 0;
+    right: 0;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    position: absolute;
+    border-bottom-left-radius: 100%;
+    background: gold;
+  }
+
+  /* for latest deals: ribbons and discounts */
+  .discount,
+  .ribbon {
+    display: block;
+  }
+
+  .latest-deal-item img {
+    width: 270px;
+    height: 201px;
+  }
+
+  .discount {
+    position: absolute;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    right: 12px;
+    top: 26px;
+    transform: rotate(45deg);
+  }
+
+  .discount::after {
+    content: '% OFF';
+  }
+}
+
+@media (min-width: 945px) {
+  .latest-article-container {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .latest-article-photo {
+    width: 100%;
+    height: 150px;
+  }
+}
 
 /* latest funding */
 
