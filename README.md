@@ -30,6 +30,7 @@ Desktop View Footer
 
 # Live Demo
 
+https://john-arboleda.github.io/TNW-clone-page/
 
 # Getting started 
 
