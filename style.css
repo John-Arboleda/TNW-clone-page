@@ -3,11 +3,31 @@ html {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 /* Top Navbar */
+
+.navbar-relative-div {
+  position: relative;
+}
+
+.navbar-fixed-div {
+  position: fixed;
+  z-index: 10;
+}
+
+.navbar-fixed-div,
+.navbar-relative-div {
+  width: 100%;
+}
 
 .navbar-container {
   display: flex;
   width: 100%;
+  background-color: white;
 }
 
 .menu-container {
@@ -139,6 +159,7 @@ html {
 }
 
 .highlight_images {
+  padding-top: 105px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -273,7 +294,7 @@ html {
 
 .latest-relative {
   position: relative;
-  height: 230px;
+  min-height: 230px;
   width: 90%;
   margin: 3px;
   background: rgba(255, 68, 34, 0.03);
@@ -480,7 +501,7 @@ footer {
   }
 
   .latest-relative {
-    height: 250px;
+    min-height: 250px;
   }
 
   .title-links-container {
