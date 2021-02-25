@@ -361,11 +361,6 @@ html {
 
 /* Lates news */
 
-.latest_news {
-  float: left;
-  margin-bottom: 5px;
-}
-
 .latest_news_heading a {
   left: 40px;
   color: #f42;
@@ -394,6 +389,13 @@ html {
   margin: 5px;
 }
 
+.writteen a {
+  font-family: sans-serif;
+  margin-left: 20px;
+  font-size: 10px;
+  color: #555;
+}
+
 .grid-item a:hover {
   color: #f42;
   text-decoration: underline;
@@ -402,13 +404,6 @@ html {
 .grid-item .writteen a:hover {
   color: #000;
   text-decoration: none;
-}
-
-.writteen a {
-  font-family: sans-serif;
-  margin-left: 20px;
-  font-size: 10px;
-  color: #555;
 }
 
 .image_1 {
