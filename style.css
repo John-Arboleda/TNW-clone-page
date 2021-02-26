@@ -83,17 +83,6 @@ a {
   font-size: 13px;
 }
 
-.left-black-menu,
-.right-black-menu
-a:hover {
-  color: #fff;
-}
-
-.left-white-menu
-a:hover {
-  color: #000;
-}
-
 /* White Navbar */
 
 .white-menu-container {
@@ -250,6 +239,17 @@ a:hover {
   justify-content: flex-start;
   height: 50%;
   width: 100%;
+}
+
+.left-black-menu,
+.right-black-menu
+a:hover {
+  color: #fff;
+}
+
+.left-white-menu
+a:hover {
+  color: #000;
 }
 
 /* latest funding */
